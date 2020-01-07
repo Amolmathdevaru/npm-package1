@@ -5,4 +5,4 @@ before_install:
   - docker build -t amolmathdevaru/npm-package1 -f Dockerfile.dev .
 
 script:
-  - docker run amolmathdevaru/npm-package npm run test -- --coverage    
+  - docker run amolmathdevaru/npm-package1 npm run test -- --coverage    
